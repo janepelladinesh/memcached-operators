@@ -8,7 +8,11 @@ metadata:
   namespace: placeholder
 spec:
   apiservicedefinitions: {}
-  customresourcedefinitions: {}
+  customresourcedefinitions: 
+    owned:
+    - kind: Memcached
+      name: memcacheds.cache.example.com
+      version: v1alpha1
   description: Placeholder description
   displayName: Memcached Operator
   install:
