@@ -149,6 +149,7 @@ spec:
   - app
   links:
   - name: Documentation
+    url: https://github.com/appsody/appsody-operator/tree/master/doc/
   maintainers:
   - email: corp@example.com
   provider:
