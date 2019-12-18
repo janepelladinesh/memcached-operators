@@ -147,6 +147,8 @@ spec:
   keywords:
   - memcached
   - app
+  links:
+  - name: Documentation
   maintainers:
   - email: corp@example.com
   provider:
