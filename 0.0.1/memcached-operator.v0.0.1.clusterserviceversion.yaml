@@ -4,10 +4,9 @@ metadata:
   annotations:
     alm-examples: '[{"apiVersion":"cache.example.com/v1alpha1","kind":"Memcached","metadata":{"name":"example-memcached"},"spec":{"size":3}}]'
     capabilities: Basic Install
-    categories: Application Runtime
+    categories: other
     certified: 'true'
-    containerImage: quay.io/deekshith_vemula/example:v0.0.1
-    createdAt: 2019-12-02 09:00:00
+    createdAt: 2019-12-03 09:00:00
     description: Deploys memcached based applications
     repository: https://github.com/appsody/appsody-operator
     support: Memcached
